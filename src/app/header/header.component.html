@@ -1,0 +1,11 @@
+<nav class="navbar navbar-light bg-light ">
+    <form class="container-fluid justify-content-start">
+      <a style="color: #02B290;" class="navbar-brand" href="#">Just Sort It !</a>
+      <button class="btn btn-md space" type="button" value="25" (click)="emitValues($event)">Generate Array</button>
+      <div class="slidecontainer">
+        <input type="range" min="5" max="50" value="25" class="slider" id="myRange" (change)="emitValues($event)">
+      </div>
+      <button class="btn btn-md space" type="button" value="bubble" (click)="emitValues($event)">Bubble Sort</button>
+      <button class="btn btn-md space" type="button">Sort Me :)</button>
+    </form>
+  </nav>

@@ -1,0 +1,4 @@
+<app-header (newItemEvent)="sliderValueApp($event)"></app-header>
+<div class="centerVerticals">
+    <div class="vertical" *ngFor="let a of arr" [ngStyle]= "{ 'height.px' : a * 5}" ></div>
+</div>
